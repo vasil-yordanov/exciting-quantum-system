@@ -80,11 +80,11 @@ V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V(x) \sin\left(
 If V(x) is:
 
 ```math
-V(x)=V_0 \sin(\pi x/L)
+V(x)=V_0 \sin\left(\frac{\pi x}{L}\right)
 ```
 
 Then, we get:
 
 ```math
-V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V_0 \sin(\pi x/L) \sin\left(\frac{\pi x}{L}\right) \, dx = - \frac{8}{15} \frac{V_0}{L}
+V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V_0 \sin\left(\frac{\pi x}{L}\right) \sin\left(\frac{\pi x}{L}\right) \, dx = - \frac{8}{15} \frac{V_0}{L}
 ```
