@@ -84,5 +84,5 @@ V(x)=V_0 sin(\pi x/L)
 Then, we get:
 
 ```math
-V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V_0 sin(\pi x/L) \sin\left(\frac{\pi x}{L}\right) \, dx = \frac{2}{L} V_0 * (-\frac{4}{15})
+V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V_0 sin(\pi x/L) \sin\left(\frac{\pi x}{L}\right) \, dx = \frac{2}{L} V_0 (-\frac{4}{15})
 ```
