@@ -23,7 +23,8 @@ In a one-dimensional infinite potential well (also known as a particle in a box)
 
    ```math
    \psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n \pi x}{L}\right)
-
+   ```
+   
 Here:
 
 n is a positive integer (1, 2, 3, ...), representing the quantum number of the state.
@@ -33,8 +34,9 @@ x is the position within the well (ranging from 0 to L).
 1. **Eigenvalues (Energy Levels):
    The eigenvalues correspond to the quantized energy levels of the particle. They are given by the formula:
 
-   ```math
+```math
 E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2}
+```
 
 Here:
 
