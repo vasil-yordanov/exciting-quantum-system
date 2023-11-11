@@ -11,10 +11,10 @@ i\hbar \frac{\partial \Psi(t, x)}{\partial t} = -\frac{\hbar^2}{2m} \frac{\parti
 ```
 
 where:
-- Ψ(x, t) is the wave function of the particle.
+- Ψ(t, x) is the wave function of the particle.
 - ħ is the reduced Planck constant.
 - m is the mass of the particle.
-- V(x, t) is the potential energy as a function of position x and time t.
+- V(t, x) is the potential energy as a function of position x and time t.
 
 In a one-dimensional infinite potential well (also known as a particle in a box), the eigenfunctions and eigenvalues are fundamental concepts that describe the quantized states of a particle confined in a well with infinitely high walls. The potential well is typically defined as having zero potential energy inside the well and infinite potential energy outside.
 
