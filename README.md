@@ -7,7 +7,7 @@
 The time-dependent 1D Schrödinger equation is given by:
 
 ```math
-i\hbar \frac{\partial \Psi(x, t)}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi(x, t)}{\partial x^2} + V(x, t) \Psi(x, t)
+i\hbar \frac{\partial \Psi(t, x)}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi(t, x)}{\partial x^2} + V(t, x) \Psi(t, x)
 ```
 
 where:
@@ -59,10 +59,10 @@ The eigenfunctions for a particle in a one-dimensional infinite potential well a
 where n is the quantum number, L is the width of the well, and x is the position within the well.
 
 ## Matrix Element Calculation
-The matrix element V 13 for the transition from the first to the third excited state is defined as:
+The matrix element for the transition from the first to the third excited state is defined as:
 
 ```math
-V_{13} = \int_0^L \psi_3^*(x) V(x) \psi_1(x) \, dx
+V_{13}(t) = \int_0^L \psi_3^*(x) V(t,x) \psi_1(x) \, dx
 ```
 
 Assuming a perturbation potential V(x) and substituting the eigenfunctions:
