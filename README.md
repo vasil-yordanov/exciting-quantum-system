@@ -68,13 +68,13 @@ V_{13} = \int_0^L \psi_3^*(x) V(x) \psi_1(x) \, dx
 Assuming a perturbation potential V(x) and substituting the eigenfunctions:
 
 ```math
-V_{13} = \int_0^L \sqrt{\frac{2}{L}} \sin\left(\frac{3 \pi x}{L}\right) V(x) \sqrt{\frac{2}{L}} \sin\left(\frac{\pi x}{L}\right) \, dx
+V_{13}(t) = \int_0^L \sqrt{\frac{2}{L}} \sin\left(\frac{3 \pi x}{L}\right) V(t,x) \sqrt{\frac{2}{L}} \sin\left(\frac{\pi x}{L}\right) \, dx
 ```
 
 Simplifying, we get:
 
 ```math
-V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V(t,x) \sin\left(\frac{\pi x}{L}\right) \, dx
+V_{13}(t) = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V(t,x) \sin\left(\frac{\pi x}{L}\right) \, dx
 ```
 
 If V(x) is:
