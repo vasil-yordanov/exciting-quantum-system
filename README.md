@@ -91,7 +91,7 @@ where
 Then, we get:
 
 ```math
-V_{13} = \frac{2}{L} \int_0^L \sin\left(\frac{3 \pi x}{L}\right) V_0 \sin\left(\frac{\pi x}{L}\right) \sin\left(\frac{\pi x}{L}\right) \, dx = - \frac{8}{15} \frac{V_0}{L}
+V_{13}(t) = \frac{2}{L} V_0 \cos\left(\omega t\right) \int_0^L \sin\left(\frac{3 \pi x}{L}\right) \sin\left(\frac{\pi x}{L}\right) \sin\left(\frac{\pi x}{L}\right) \, dx = - \frac{8}{15} \frac{V_0}{L}
 ```
 ## Rabbi frequency
 ```math
