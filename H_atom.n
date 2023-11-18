@@ -1,4 +1,5 @@
 % iħ * Ψ_tt(r,t)= (-ħ² / 2m) * Ψ_rr(r,t) + V(r) * Ψ(r,t)
+% http://www.niser.ac.in/~sbasak/p303_2010/14_15.09.pdf
 clearvars -except f
 
 % Parameters
